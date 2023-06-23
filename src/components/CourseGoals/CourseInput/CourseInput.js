@@ -17,9 +17,9 @@ const CourseInput = props => {
       alert('You must not submit an empty value')
     } else {
       props.onAddGoal(submittedData);
-
-      setEnteredValue('')
     }
+
+    setEnteredValue('')
   };
 
   return (
